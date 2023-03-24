@@ -1,4 +1,4 @@
-# EXECUTIVE SUMMARY
+# Machine Learning for Stocks Options
 
 ## Overview 
 - This report documents the entirety of our options pricing group project – from planning stages to conclusion and summary. 
