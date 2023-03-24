@@ -1,8 +1,5 @@
 # Machine Learning for Stocks Options
 
-## Overview 
-- This report documents the entirety of our options pricing group project – from planning stages to conclusion and summary. 
-
 ## Problem Statement 
 - Using European call option pricing data on the S&P 500, we will find the best regression model (in terms of out-of-sample r squared) and best classification model (in terms of classification error) to predict “Value” and “BS” respectively. Our dataset had stock options with the following recorded variables: 
   - Value (C): Current option value 
