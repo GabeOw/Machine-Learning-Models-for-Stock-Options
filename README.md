@@ -5,12 +5,12 @@
 
 ## Problem Statement 
 - Using European call option pricing data on the S&P 500, we will find the best regression model (in terms of out-of-sample r squared) and best classification model (in terms of classification error) to predict “Value” and “BS” respectively. Our dataset had stock options with the following recorded variables: 
-  •	Value (C): Current option value 
-  •	S: Current asset value 
-  •	K: Strike price of option 
-  •	r: Annual interest rate 
-  •	tau: Time to maturity (in years) 
-  •	BS: The Black-Scholes formula was applied to this data (using some σ) to get C_pred. If an option has C_pred – C > 0, i.e., the prediction overestimated the option value
+  - Value (C): Current option value 
+  - S: Current asset value 
+  - K: Strike price of option 
+  -	r: Annual interest rate 
+  -	tau: Time to maturity (in years) 
+  - BS: The Black-Scholes formula was applied to this data (using some σ) to get C_pred. If an option has C_pred – C > 0, i.e., the prediction overestimated the option value
 
 - Our best selected models would then be used to make predictions on an unseen test dataset of 1,120 options. 
 
